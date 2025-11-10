@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore")
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
 # --- YouTube API setup ---
-API_KEY = "YOUR_YOUTUBE_API_KEY"
+API_KEY = "AIzaSyA3lwMlBmEACx_qu0wrDSawa_HQDyZe-ag"
 
 def get_comments(video_url):
     video_id = video_url.split("v=")[-1].split("&")[0]
